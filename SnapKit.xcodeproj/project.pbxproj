@@ -12,7 +12,28 @@
 		A13080EF20D2E3030000696D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A13080ED20D2E3030000696D /* Main.storyboard */; };
 		A13080F120D2E3030000696D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A13080F020D2E3030000696D /* Assets.xcassets */; };
 		A13080F420D2E3030000696D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A13080F220D2E3030000696D /* LaunchScreen.storyboard */; };
+		A13080FD20D2E4690000696D /* SCSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A13080FB20D2E4680000696D /* SCSDKCoreKit.framework */; };
+		A13080FE20D2E4690000696D /* SCSDKCoreKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A13080FB20D2E4680000696D /* SCSDKCoreKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A13080FF20D2E4690000696D /* SCSDKCreativeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A13080FC20D2E4680000696D /* SCSDKCreativeKit.framework */; };
+		A130810020D2E4690000696D /* SCSDKCreativeKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A13080FC20D2E4680000696D /* SCSDKCreativeKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A130810320D3303B0000696D /* sticker.png in Resources */ = {isa = PBXBuildFile; fileRef = A130810220D3303B0000696D /* sticker.png */; };
+		A130810720D37D380000696D /* me.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A130810620D37D380000696D /* me.jpg */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A130810120D2E4690000696D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A13080FE20D2E4690000696D /* SCSDKCoreKit.framework in Embed Frameworks */,
+				A130810020D2E4690000696D /* SCSDKCreativeKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		A13080E620D2E3030000696D /* SnapKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnapKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -22,6 +43,10 @@
 		A13080F020D2E3030000696D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A13080F320D2E3030000696D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A13080F520D2E3030000696D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A13080FB20D2E4680000696D /* SCSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SCSDKCoreKit.framework; sourceTree = "<group>"; };
+		A13080FC20D2E4680000696D /* SCSDKCreativeKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SCSDKCreativeKit.framework; sourceTree = "<group>"; };
+		A130810220D3303B0000696D /* sticker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sticker.png; sourceTree = "<group>"; };
+		A130810620D37D380000696D /* me.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = me.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +54,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A13080FD20D2E4690000696D /* SCSDKCoreKit.framework in Frameworks */,
+				A13080FF20D2E4690000696D /* SCSDKCreativeKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +65,8 @@
 		A13080DD20D2E3030000696D = {
 			isa = PBXGroup;
 			children = (
+				A13080FB20D2E4680000696D /* SCSDKCoreKit.framework */,
+				A13080FC20D2E4680000696D /* SCSDKCreativeKit.framework */,
 				A13080E820D2E3030000696D /* SnapKit */,
 				A13080E720D2E3030000696D /* Products */,
 			);
@@ -55,6 +84,8 @@
 			isa = PBXGroup;
 			children = (
 				A13080E920D2E3030000696D /* AppDelegate.swift */,
+				A130810620D37D380000696D /* me.jpg */,
+				A130810220D3303B0000696D /* sticker.png */,
 				A13080EB20D2E3030000696D /* ViewController.swift */,
 				A13080ED20D2E3030000696D /* Main.storyboard */,
 				A13080F020D2E3030000696D /* Assets.xcassets */,
@@ -74,6 +105,7 @@
 				A13080E220D2E3030000696D /* Sources */,
 				A13080E320D2E3030000696D /* Frameworks */,
 				A13080E420D2E3030000696D /* Resources */,
+				A130810120D2E4690000696D /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -122,9 +154,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A130810720D37D380000696D /* me.jpg in Resources */,
 				A13080F420D2E3030000696D /* LaunchScreen.storyboard in Resources */,
 				A13080F120D2E3030000696D /* Assets.xcassets in Resources */,
 				A13080EF20D2E3030000696D /* Main.storyboard in Resources */,
+				A130810320D3303B0000696D /* sticker.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +316,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 26TV24DK6Z;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = SnapKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -300,6 +338,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 26TV24DK6Z;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = SnapKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

@@ -7,19 +7,24 @@
 //
 
 import UIKit
+import SCSDKCreativeKit
 
 class ViewController: UIViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        let sticker = SCSDKSnapSticker(stickerImage: #imageLiteral(resourceName: "sticker.png"))
+        
+        let snap = SCSDKNoSnapContent()
+        snap.sticker = sticker
+        snap.caption = "Snap on Snapchat!"
+        snap.attachmentUrl = "https://snapchat.com"
+        
+        let api = SCSDKSnapAPI(content: snap)
+        api.startSnapping { (error) in
+            print(error ?? "No Error")
+        }
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-
 }
 
