@@ -19,7 +19,7 @@
 	<key>LSApplicationCategoryType</key>
 	<string></string>
 	<key>SCSDKClientId</key>
-	<string>2fd09dea-720e-4c8a-bd00-2abee2180133</string>
+	<string>f0fac56f-612b-44a2-8378-efcb20a51d1d</string>
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
 	<key>UIMainStoryboardFile</key>
@@ -44,8 +44,6 @@
 	<key>CFBundleURLTypes</key>
 	<array>
 		<dict>
-			<key>CFBundleRoleType</key>
-			<string>Editor</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
 				<string>SnapKit</string>

@@ -16,8 +16,8 @@
 		A13080FE20D2E4690000696D /* SCSDKCoreKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A13080FB20D2E4680000696D /* SCSDKCoreKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		A13080FF20D2E4690000696D /* SCSDKCreativeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A13080FC20D2E4680000696D /* SCSDKCreativeKit.framework */; };
 		A130810020D2E4690000696D /* SCSDKCreativeKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A13080FC20D2E4680000696D /* SCSDKCreativeKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		A130810320D3303B0000696D /* sticker.png in Resources */ = {isa = PBXBuildFile; fileRef = A130810220D3303B0000696D /* sticker.png */; };
 		A130810720D37D380000696D /* me.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A130810620D37D380000696D /* me.jpg */; };
+		A1A9348120D449A00026FDEB /* sticker.png in Resources */ = {isa = PBXBuildFile; fileRef = A1A9348020D4499F0026FDEB /* sticker.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -45,8 +45,8 @@
 		A13080F520D2E3030000696D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A13080FB20D2E4680000696D /* SCSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SCSDKCoreKit.framework; sourceTree = "<group>"; };
 		A13080FC20D2E4680000696D /* SCSDKCreativeKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SCSDKCreativeKit.framework; sourceTree = "<group>"; };
-		A130810220D3303B0000696D /* sticker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sticker.png; sourceTree = "<group>"; };
 		A130810620D37D380000696D /* me.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = me.jpg; sourceTree = "<group>"; };
+		A1A9348020D4499F0026FDEB /* sticker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sticker.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,8 +84,8 @@
 			isa = PBXGroup;
 			children = (
 				A13080E920D2E3030000696D /* AppDelegate.swift */,
+				A1A9348020D4499F0026FDEB /* sticker.png */,
 				A130810620D37D380000696D /* me.jpg */,
-				A130810220D3303B0000696D /* sticker.png */,
 				A13080EB20D2E3030000696D /* ViewController.swift */,
 				A13080ED20D2E3030000696D /* Main.storyboard */,
 				A13080F020D2E3030000696D /* Assets.xcassets */,
@@ -156,9 +156,9 @@
 			files = (
 				A130810720D37D380000696D /* me.jpg in Resources */,
 				A13080F420D2E3030000696D /* LaunchScreen.storyboard in Resources */,
+				A1A9348120D449A00026FDEB /* sticker.png in Resources */,
 				A13080F120D2E3030000696D /* Assets.xcassets in Resources */,
 				A13080EF20D2E3030000696D /* Main.storyboard in Resources */,
-				A130810320D3303B0000696D /* sticker.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
